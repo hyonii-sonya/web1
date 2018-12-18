@@ -1,0 +1,35 @@
+<style>
+  body {
+    margin : 0;
+  }
+  h1{
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  @media(min-width:700px){
+    #grid ol {
+      border-right: 1px solid gray;
+      width: 150px;
+      margin: 0;
+      padding : 30px;
+      padding-left: 40px;
+      display: inline;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
+  }
+  @media(max-width:700px){
+    #tenantimg {
+      width: 80%;
+    }
+  }
+  #article {
+    padding: 20px;
+  }
+</style>

@@ -3,26 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HOS</title>
-    <style>
-      a {
-        color:black;
-        text-decoration: none;
-      }
-      #active {
-        color : red;
-      }
-      .saw {
-        color:gray;
-      }
-      
-      h1{
-        font-size : 60px;
-        text-align : center;
-      }
-      ul{
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131129063-1"></script>
     <script>
@@ -37,16 +18,19 @@
 
   <body>
     <h1><a href="index.html">HOS</a></h1>
-    <h2><a href="https://www.airbnb.co.kr/a/?af=43720035&c=.pi0.pk5917949885_67403535725_c_12026464216&sem_position=1t1&sem_target=kwd-12026464216&location_of_interest=&location_physical=9041201&gclid=Cj0KCQiA6dLgBRDoARIsAJgoM4uRFp57gwAY74k0w1AGd8QOaSU4twWQTTdO3-sbe6oXX8ZvC3Y9NZQaAotfEALw_wcB"
-      target="_blank" title = "AirBnb">YOU OWN IT</a>, WE TAKE CARE OF REST</h2>
-    <img src="Housing.JPG" width="800px">
-    <p style = "margin-top : 40px"><h3>On demand housing transforms short-term leases into a goldmine.</h3></p>
-    <h4>Read more!</h4>
-    <ol>
-      <li><a href="1.html" class="saw">Landlord</a></li>
-      <li><a href="2.html" class="saw" id="active">Tenant</a></li>
-      <li><a href="3.html">Admin</a></li>
-    </ol>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Landlord</a></li>
+        <li><a href="2.html">Tenant</a></li>
+        <li><a href="3.html">Admin</a></li>
+      </ol>
+      <div id="article">
+        <h2>YOU OWN IT, WE TAKE CARE OF REST</h2>
+        <img id="housingimg" src="Housing.JPG" width="600px">
+        <h3>On demand housing transforms short-term leases into a goldmine.</h3>
+        <h4>Read more!</h4>
+      </div>
+    </div>
     <h4>We are...</h4>
     <ul>
       <li>Fanny</li>
@@ -63,7 +47,7 @@
       (d.head || d.body).appendChild(s);
       })();
       </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>               
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
